@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <body>
+        <h1>ESTAADO</h1>
+        <h4>ESTUDIANTE</h4>
+        <p id="estado">-</p>
+    </body>
+    <script>
+        // Bifurcacion - Condiciones
+        let nota = 0;
+        nota = prompt("Ingrese su nota");
+        if (nota >= 51) {
+            //true
+            document.getElementById('estado').innerHTML = 
+            "ESTUDIANTE ESTA APROBADO: " + nota;
+            console.log('ESTUDIANTE ESTA APROBADO');
+        } else {
+            //false
+            document.getElementById('estado').innerHTML = 
+            "ESTUDIANTE ESTA REPROBADO: " + nota;
+            console.error('ESTUDIANTE  REPROBADO');
+        }
+    </script>
+</head>
+
+</html>
+
+
+
+
+
+
