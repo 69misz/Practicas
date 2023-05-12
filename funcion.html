@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        FLUJO COMPRAR DE MEGAS
+        1. Solicita nombre (proceso)
+        1. Solicita apellido (proceso)
+        1. Comprar megas 
+        */
+        // Usuario ingrese su nombre
+        function solicitarNombre () {
+            /*
+            INSTRUCCIONES
+            */
+           let nombre = "";
+           nombre = prompt("Ingresa tu nombre: ")
+           alert(nombre);
+        }
+        // Usuario ingrese su apellido
+        function solicitarApellido () {
+           let apellido = "";
+           apellido = prompt("Ingresa tu apellido: ")
+           alert(apellido);
+        }
+        // Comprar megas
+        function comprarInternet () {
+           let saldo = 0;
+           saldo = prompt("Ingresa el saldo de credito de su linea telefonica: ")
+            alert("COMPRA EXTOSA ✔.HAS COMPRADO EL PAQUETE DE 150 MB +4 MSJ");
+        }
+        // Invocacion
+        solicitarNombre();
+        solicitarApellido();
+        comprarInternet();
+    </script>
+</body>
+</html>
