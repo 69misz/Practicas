@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+         REALIZAR UNA FUNCION DE FLECHA QUE SOLICITE  UN NOMBRE USANDO PROMPT
+
+         TIPS
+         PASOS:
+         1. CREAR VARIABLE
+         2. LA VARIABLE TIENE QUE SER IGUAL A UNA ARROW FUNCTION (FUNCION DE FLECHA)
+         solicitarInformaccion();
+         */
+
+         /*let solicitarInformacion = () => {
+            let nombre = prompt("Ingrese su nombre");
+         } */
+
+         function solicitarNombre() {
+            let nombre = prompt("Ingrese su nombre");
+            solicitarApellido(nombre);
+         }
+
+         function solicitarApellido(nombre) {
+            let apellido =prompt("Ingrese su apellido");
+            console.log(nombre + apellido);
+         }
+         solicitarNombre();
+
+    </script>
+</body>
+</html>

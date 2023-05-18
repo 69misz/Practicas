@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        PROGRAMAR UNA FUNCION QUE SOLICITE UN NUMERO, A ESE NUMERO SE LE SUME 10 Y EL  RESULTADI SE VEA EN CONSOLA
+        
+        EN LA FUNCION NO TIENEQUE EXISTIRNUMEROS
+        EL VALOR DE 10 SE INVIARA COMO PARAMETRO
+
+        10 => 20*/
+        /*
+
+        let suma = ( ) => {
+            let valor = prompt ("Ingrese numero");
+            console.log(parseInt(valor) + 10);
+        }
+        suma(); 
+        */
+
+        let parametro = 10;
+        let  suma = (parametro) => {
+            let valor =prompt ("Ingrese numero: ");
+            console.log(+valor + parametro);
+            console.log(parseInt(valor) + parametro);
+            console.log(Number(valor) + parametro);
+        }
+        suma(parametro);
+        
+    </script>
+</body>
+</html>
